@@ -80,13 +80,13 @@ const ServicesSection = () => {
     { name: "Python", category: "Backend" },
     { name: "MongoDB", category: "Database" },
     { name: "MySQL", category: "Database" },
+    { name: "PostgreSQL", category: "Database" },
     { name: "AWS", category: "Cloud" },
     { name: "Azure", category: "Cloud" },
     { name: "Docker", category: "DevOps" },
     { name: "Kubernetes", category: "DevOps" },
-    { name: "React", category: "Frontend" },
-    { name: "Vue.js", category: "Frontend" },
-    { name: "TypeScript", category: "Frontend" }
+    { name: "Terraform", category: "DevOps" },
+    { name: "Apache Spark", category: "Data Engineering" }
   ];
 
   return (

@@ -54,12 +54,12 @@ const WhyChooseUsSection = () => {
     },
     {
       icon: TrendingUp,
-      title: "Proven Track Record",
-      description: "Consistent success stories across diverse industries and technology stacks.",
+      title: "Results-Driven Approach",
+      description: "We focus on delivering measurable outcomes and practical solutions that drive real business value.",
       details: [
-        "95% client satisfaction rate",
-        "500+ professionals trained",
-        "50+ successful project deliveries"
+        "Goal-oriented training programs",
+        "Performance-based consulting methods",
+        "Continuous improvement mindset"
       ]
     },
     {
@@ -147,31 +147,21 @@ const WhyChooseUsSection = () => {
           </div>
         </div>
 
-        {/* Success Metrics */}
+        {/* Our Commitment */}
         <div className="mt-16 text-center">
           <h3 className="text-2xl font-bold mb-8 gradient-text">
-            Our Success in Numbers
+            Our Commitment to Excellence
           </h3>
           
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="bg-white rounded-xl p-6 shadow-soft">
-              <div className="text-3xl font-bold text-primary mb-2">95%</div>
-              <div className="text-sm text-muted-foreground">Client Satisfaction</div>
+              <div className="text-3xl font-bold text-primary mb-2">Fresh</div>
+              <div className="text-sm text-muted-foreground">Perspective & Innovation</div>
             </div>
             
             <div className="bg-white rounded-xl p-6 shadow-soft">
-              <div className="text-3xl font-bold text-primary mb-2">500+</div>
-              <div className="text-sm text-muted-foreground">Professionals Trained</div>
-            </div>
-            
-            <div className="bg-white rounded-xl p-6 shadow-soft">
-              <div className="text-3xl font-bold text-primary mb-2">50+</div>
-              <div className="text-sm text-muted-foreground">Companies Served</div>
-            </div>
-            
-            <div className="bg-white rounded-xl p-6 shadow-soft">
-              <div className="text-3xl font-bold text-primary mb-2">100%</div>
-              <div className="text-sm text-muted-foreground">Project Success Rate</div>
+              <div className="text-3xl font-bold text-primary mb-2">Dedicated</div>
+              <div className="text-sm text-muted-foreground">Support & Guidance</div>
             </div>
           </div>
         </div>
