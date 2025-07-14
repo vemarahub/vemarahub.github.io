@@ -1,4 +1,4 @@
-import { Facebook, Twitter, Linkedin, Github, Mail, Phone, MapPin } from 'lucide-react';
+import { Instagram, Twitter, Linkedin, Github, Mail, Phone, MapPin } from 'lucide-react';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -7,7 +7,7 @@ const Footer = () => {
     { name: 'About', href: '#about' },
     { name: 'Services', href: '#services' },
     { name: 'Why Choose Us', href: '#why-choose-us' },
-    { name: 'Testimonials', href: '#testimonials' },
+    { name: 'Blogs', href: '#blogs' },
     { name: 'Contact', href: '#contact' }
   ];
 
@@ -20,9 +20,9 @@ const Footer = () => {
   ];
 
   const socialLinks = [
-    { name: 'LinkedIn', icon: Linkedin, href: '#', color: 'hover:text-blue-600' },
-    { name: 'Twitter', icon: Twitter, href: '#', color: 'hover:text-blue-400' },
-    { name: 'Facebook', icon: Facebook, href: '#', color: 'hover:text-blue-500' },
+    { name: 'LinkedIn', icon: Linkedin, href: 'https://www.linkedin.com/company/hello-wereld', color: 'hover:text-blue-600' },
+    { name: 'Twitter', icon: Twitter, href: 'https://x.com/Hello_Wereld', color: 'hover:text-blue-400' },
+    { name: 'Instagram', icon: Instagram, href: '#', color: 'hover:text-blue-500' },
     { name: 'GitHub', icon: Github, href: '#', color: 'hover:text-gray-600' }
   ];
 
@@ -52,15 +52,15 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
                 <Mail className="h-4 w-4 text-accent" />
-                <span className="text-sm text-white/80">hello@hellowereld.com</span>
+                <span className="text-sm text-white/80">contacthellowereld@gmail.com</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="h-4 w-4 text-accent" />
-                <span className="text-sm text-white/80">+1 (555) 123-4567</span>
+                <span className="text-sm text-white/80">+31 (555) 123-4567</span>
               </div>
               <div className="flex items-center space-x-3">
                 <MapPin className="h-4 w-4 text-accent" />
-                <span className="text-sm text-white/80">123 Tech Hub Street</span>
+                <span className="text-sm text-white/80">Almere, Netherlands</span>
               </div>
             </div>
           </div>
