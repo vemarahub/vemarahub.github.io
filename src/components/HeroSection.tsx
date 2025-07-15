@@ -31,7 +31,7 @@ const HeroSection = () => {
 <img 
   src={Logo} 
   alt="Hello Wereld Logo" 
-  className="w-64 sm:w-72 lg:w-80 mb-6 mx-auto"
+  className="w-full max-w-[500px] mb-6 mx-auto"
 />
 
 
