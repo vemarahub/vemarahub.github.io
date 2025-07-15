@@ -1,6 +1,7 @@
 import { ArrowRight, Calendar, MessageCircle, Phone } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import heroImage from '@/assets/hero-bg.jpg';
+import Logo from '@/assets/hellowereldLogo.png';
 
 const HeroSection = () => {
   const handleScrollToSection = (sectionId: string) => {
@@ -26,10 +27,13 @@ const HeroSection = () => {
       
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="fade-in visible">
-          {/* Brand Name */}
-          <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white mb-6">
-            Hello<span className="text-accent">Wereld</span>
-          </h1>
+
+<img 
+  src={Logo} 
+  alt="Hello Wereld Logo" 
+  className="w-48 sm:w-56 lg:w-64 mb-6 mx-auto"
+/>
+
 
           {/* Tagline */}
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-semibold text-white mb-4">
