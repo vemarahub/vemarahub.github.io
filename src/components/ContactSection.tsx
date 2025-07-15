@@ -80,19 +80,19 @@ const ContactSection = () => {
     {
       icon: Mail,
       title: "Email Us",
-      content: "hello@hellowereld.com",
+      content: "contacthellowereld@gmail.com",
       description: "Send us an email anytime"
     },
     {
       icon: Phone,
       title: "Call Us",
-      content: "+1 (555) 123-4567",
+      content: "+31 (555) 123-4567",
       description: "Mon-Fri from 8am to 6pm"
     },
     {
       icon: MapPin,
       title: "Visit Us",
-      content: "123 Tech Hub Street, Innovation District",
+      content: "Almere Netherlands",
       description: "Schedule an appointment"
     },
     {
