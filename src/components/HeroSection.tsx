@@ -25,14 +25,15 @@ const HeroSection = () => {
       {/* Tech pattern overlay */}
       <div className="absolute inset-0 tech-pattern opacity-30"></div>
       
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <div className="relative z-10 max-w-7xl mx-auto text-center">
         <div className="fade-in visible">
 
 <img 
   src={Logo} 
   alt="Hello Wereld Logo" 
-  className="w-full max-w-[500px] mb-6 mx-auto"
+  className="w-[600px] sm:w-[700px] lg:w-[800px] mb-6 mx-auto"
 />
+
 
 
           {/* Tagline */}
