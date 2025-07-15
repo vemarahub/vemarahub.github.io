@@ -89,28 +89,28 @@ const AboutSection = () => {
           {/* Stats */}
           <div className="bg-white rounded-2xl shadow-medium p-8">
             <h3 className="text-2xl font-bold text-center mb-8 gradient-text">
-              Our Impact
+              Our Vision
             </h3>
             
             <div className="grid grid-cols-2 gap-6">
               <div className="text-center">
-                <div className="text-3xl font-bold text-primary mb-2">500+</div>
-                <div className="text-sm text-muted-foreground">Professionals Trained</div>
+                <div className="text-3xl font-bold text-primary mb-2">Inspire Curiosity</div>
+                <div className="text-sm text-muted-foreground">Enable power and joy of digital skills</div>
               </div>
               
               <div className="text-center">
-                <div className="text-3xl font-bold text-primary mb-2">50+</div>
-                <div className="text-sm text-muted-foreground">Companies Served</div>
+                <div className="text-3xl font-bold text-primary mb-2">Cultivate Community</div>
+                <div className="text-sm text-muted-foreground">Building a friendly, supportive environment</div>
               </div>
               
               <div className="text-center">
-                <div className="text-3xl font-bold text-primary mb-2">95%</div>
-                <div className="text-sm text-muted-foreground">Client Satisfaction</div>
+                <div className="text-3xl font-bold text-primary mb-2">Drive Innovation</div>
+                <div className="text-sm text-muted-foreground">Nurturing forward-thinking ideas and creative projects</div>
               </div>
               
               <div className="text-center">
-                <div className="text-3xl font-bold text-primary mb-2">24/7</div>
-                <div className="text-sm text-muted-foreground">Support Available</div>
+                <div className="text-3xl font-bold text-primary mb-2">Champion Inclusion</div>
+                <div className="text-sm text-muted-foreground">Making tech accessible and empowering people</div>
               </div>
             </div>
           </div>
