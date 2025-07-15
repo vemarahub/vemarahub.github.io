@@ -80,7 +80,7 @@ const ContactSection = () => {
     {
       icon: Mail,
       title: "Email Us",
-      content: "contacthellowereld@gmail.com",
+-      content: "contacthellowereld@gmail.com",
       description: "Send us an email anytime"
     },
     {
