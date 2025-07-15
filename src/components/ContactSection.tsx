@@ -80,13 +80,13 @@ const ContactSection = () => {
     {
       icon: Mail,
       title: "Email Us",
--      content: "contacthellowereld@gmail.com",
+      content: "contacthellowereld@gmail.com",
       description: "Send us an email anytime"
     },
     {
       icon: Phone,
       title: "Call Us",
-      content: "+31 (555) 123-4567",
+      content: "+31 (000) 123-4567",
       description: "Mon-Fri from 8am to 6pm"
     },
     {
