@@ -94,22 +94,22 @@ const AboutSection = () => {
             
             <div className="grid grid-cols-2 gap-6">
               <div className="text-center">
-                <div className="text-2xl sm:text-3xl font-bold text-primary mb-2 whitespace-nowrap">Inspire Curiosity</div>
+                <div className="text-xl sm:text-2xl md:text-3xl font-bold text-primary mb-2 whitespace-nowrap overflow-hidden text-ellipsis">Inspire Curiosity</div>
                 <div className="text-sm text-muted-foreground">Enable power and joy of digital skills</div>
               </div>
               
               <div className="text-center">
-                <div className="text-2xl sm:text-3xl font-bold text-primary mb-2 whitespace-nowrap">Cultivate Community</div>
+                <div className="text-xl sm:text-2xl md:text-3xl font-bold text-primary mb-2 whitespace-nowrap overflow-hidden text-ellipsis">Cultivate Community</div>
                 <div className="text-sm text-muted-foreground">Building a friendly, supportive environment</div>
               </div>
               
               <div className="text-center">
-                <div className="text-2xl sm:text-3xl font-bold text-primary mb-2 whitespace-nowrap">Drive Innovation</div>
+                <div className="text-xl sm:text-2xl md:text-3xl font-bold text-primary mb-2 whitespace-nowrap overflow-hidden text-ellipsis">Drive Innovation</div>
                 <div className="text-sm text-muted-foreground">Nurturing forward-thinking ideas and creative projects</div>
               </div>
               
               <div className="text-center">
-                <div className="text-2xl sm:text-3xl font-bold text-primary mb-2 whitespace-nowrap">Champion Inclusion</div>
+                <div className="text-xl sm:text-2xl md:text-3xl font-bold text-primary mb-2 whitespace-nowrap overflow-hidden text-ellipsis">Champion Inclusion</div>
                 <div className="text-sm text-muted-foreground">Making tech accessible and empowering people</div>
               </div>
             </div>
