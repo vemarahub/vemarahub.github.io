@@ -22,8 +22,8 @@ const Footer = () => {
   const socialLinks = [
     { name: 'LinkedIn', icon: Linkedin, href: 'https://www.linkedin.com/company/hello-wereld', color: 'hover:text-blue-600' },
     { name: 'Twitter', icon: Twitter, href: 'https://x.com/Hello_Wereld', color: 'hover:text-blue-400' },
-    { name: 'Instagram', icon: Instagram, href: '#', color: 'hover:text-blue-500' },
-    { name: 'GitHub', icon: Github, href: '#', color: 'hover:text-gray-600' }
+    { name: 'Instagram', icon: Instagram, href: 'https://www.instagram.com/hello.wereld', color: 'hover:text-blue-500' },
+    { name: 'GitHub', icon: Github, href: 'https://github.com/HelloWereldOrg', color: 'hover:text-gray-600' }
   ];
 
   const handleLinkClick = (href: string) => {
